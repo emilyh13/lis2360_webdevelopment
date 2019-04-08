@@ -14,11 +14,12 @@ body {
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #000000;
+	padding: 0 40px;
 }
 h1 {
 	font-family: Courier;
 	font-size: 40px;
-	padding: 1px 0;
+	padding: 0 40px;
 	font-variant: normal;
 	color: #191970;
 	letter-spacing: .0em;
@@ -27,7 +28,7 @@ h1 {
 h2 {
 	font-size: 25px;
 	font-family: Courier;
-	padding: 8px;
+	padding: 0 40px;
 	font-variant: normal;
 	letter-spacing: 0.1em;
 	background-color: #00CED1;
@@ -87,11 +88,13 @@ th {
 /* border styles ------------------------------------ */
 hr {
 	border: solid #00CED1 1px;
+	padding: 0 40px;
 }
 
 img {
 	border: solid #00008B 4px;
 	margin: 2px;
+	
 
 }
 
@@ -99,4 +102,47 @@ iframe {
 	border: solid #00008B 13px;
 	padding: 8px;
 	margin: 10px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid  #191970;
+	background-color: #fff;
+	overflow: hidden; 
+	}
+#header {
+	width: 100%;
+	background-color: #D2DFE8;
+	border-bottom:1px solid #191970;
+	
+	
+	
+	
+}
+#content {
+	width: 700px;
+	float: left;
+	padding-bottom: 15px
+}
+
+#sidebar {
+	width:260px;
+	float: left;
+	margin-top: 700px;
+	margin-left: 20px;
+	background: #D2DFE8;
+	border: 1px solid #191970;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888;
+	
+}
+
+#footer {
+width:100%;	
+padding:20px;
+background-color: #D2DFE8;
+border-top:1px solid #191970;
+clear: both;
 }
