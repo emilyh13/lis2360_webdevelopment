@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document created by Emily Harrington, Spring 2019*/
+
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #000000;
+	background-color: #FFF;
+	padding: 0 50px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+	padding: 0 40px;
+}
+h1 {
+	font-family: Courier;
+	font-size: 40px;
+	padding: 0 40px;
+	font-variant: normal;
+	color: #191970;
+	letter-spacing: .0em;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 25px;
+	font-family: Courier;
+	padding: 0 40px;
+	font-variant: normal;
+	letter-spacing: 0.1em;
+	background-color: #00CED1;
+}
+h3 {
+	font-size: 12px;
+	letter-spacing: 0.6em;
+	border-bottom-width: 3px;
+	border-bottom-style: inset;
+	border-bottom-color: #191970;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #00CED1;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #191970;
+	text-decoration: none;
+}
+a:hover {
+	color: #87CEEB;
+	text-decoration: underline;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 13px;
+}
+ol {
+	margin-left: 13px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #00008B 2px;
+}
+td {
+	padding: 4px;
+	border: solid #00008B 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #87CEEB;
+	text-align: center;
+	padding: 4px;
+	border: solid #00008B 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #00CED1 1px;
+	padding: 0 40px;
+}
+
+img {
+	border: solid #00008B 4px;
+	margin: 2px;
+	
+
+}
+
+iframe {
+	border: solid #00008B 13px;
+	padding: 8px;
+	margin: 10px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid  #191970;
+	background-color: #fff;
+	overflow: hidden; 
+	}
+#header {
+	width: 100%;
+	background-color: #D2DFE8;
+	border-bottom:1px solid #191970;
+	
+	
+	
+	
+}
+#content {
+	width: 700px;
+	float: left;
+	padding-bottom: 15px
+}
+
+#sidebar {
+	width:260px;
+	float: left;
+	margin-top: 700px;
+	margin-left: 20px;
+	background: #D2DFE8;
+	border: 1px solid #191970;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #888;
+	
+}
+
+#footer {
+width:100%;	
+padding:20px;
+background-color: #D2DFE8;
+border-top:1px solid #191970;
+clear: both;
+}
